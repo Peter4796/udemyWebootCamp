@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Search Forms</h1>
+    <form action="TESTING">
+        <label for="username">Insert Username: </label>
+        <input type="text" placeholder="Insert your name" id="username"> <br>
+        <label for="color">Color: </label>
+
+        <input type="color" id="color"> <br>
+        <label for="password">password: </label>
+
+        <input type="password" placeholder="password" id="password"> <br>
+        <label>
+            Phone Number:
+            <input type="number" placeholder="number">
+
+        </label> <br>
+
+    </form>
+    <button>SUBMIT</button>
+    <form action="https://www.youtube.com/results?">
+        <input name="search_query">
+        <button>SEARCH</button>
+    </form>
+    <h3>Checkbox</h3>
+    <form action="/birds">
+        <input type="checkbox" id="terms" checked name="AgreeTerms">
+        <label for="terms">Agree to terms</label>
+        <p>
+            <label for="XS">XS</label>
+            <input type="radio" name="size" id="XS" value="XS">
+            <label for="XS">S</label>
+            <input type="radio" name="size" id="S" value="S">
+            <label for="M">M</label>
+            <input type="radio" name="size" id="M" value="M">
+        </p>
+        <p>
+            <label for="meal">Please select a meal</label>
+            <select id="meal" name="meal">
+                <option value="">Input an option</option>
+                <option value="fish">fish</option>
+                <option value="beef">beef</option>
+                <option value="cabbage">cabbage</option>
+                <option value="mutton">mutton</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of cheese</label>
+            <input id="cheese" type="range" min="1" max="100" step="10" name="cheese_level" >
+        </p>
+        <button>SUBMIT</button>
+    </form>
+    <h2>Validations Demo</h2>
+    <form>
+        <p>
+            <label for="firstname">Enter first name here</label>
+            <input type="text" id="firstname" name="first" required>
+            <button>SUBMIT</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
